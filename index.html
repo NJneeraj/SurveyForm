@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+    <h3>Thanks for taking this survey</h3>
+
+    <section>
+        <div class="container">
+            <form action="_blank">
+                <div id="inputs">
+                    <div class="name-input">
+                        <label for="name">Enter Your Name</label>
+                        <input type="text" id="name" name="username" required placeholder="Name here">
+                    </div>
+                    <div class="pswrd-input">
+                        <label for="password">Enter Your Password</label>
+                        <input type="password" id="password" name="password" required placeholder="Password here">
+                    </div>
+                    <div class="email-input">
+                        <label for="email">Enter Your Email</label>
+                        <input type="email" id="password" name="email" required placeholder="abc@gmail.com">
+                    </div>
+                    <div class="age-input">
+                        <label for="age">Enter Your Age</label>
+                        <input type="number" placeholder="14" min="14" max="102" id="age" name="age">
+                    </div>
+                    <div class="roles">
+                        <label for="selects">What is your current role?</label>
+                        <select name="roles" id="selects">
+                            <option name="roles" value="">--Select here--</option>
+                            <option name="roles" value="stdnt">Student</option>
+                            <option name="roles" value="ptemplyd">Part time-employeed</option>
+                            <option name="roles" value="ftemplyd">Full time employeed</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="suggestions">
+                    <p>Would you suggest this survey to a friend?</p>
+                    <input type="radio" name="recommend" id="yes" class="toleft">
+                    <label for="yes" class="toright">Definately</label>
+                    <input type="radio" name="recommend" id="maybe" class="toleft">
+                    <label for="maybe" class="toright">Maybe</label>
+                    <input type="radio" name="recommend" id="notsure" class="toleft">
+                    <label for="notsure" class="toright">Not sure</label>
+                    <input type="radio" name="recommend" id="no" class="toleft">
+                    <label for="no" class="toright">Not at all</label>
+                </div>
+                <div class="improved">
+                    <p>What would you like to see improved?</p>
+                    <input type="checkbox" id="cE" class="toleft" name="coding">
+                    <label for="cE" class="toright">Coding Exercises</label>
+                    <input type="checkbox" id="wC" class="toleft" name="weekly">
+                    <label for="wC" class="toright">Weekly Challanges</label>
+                    <input type="checkbox" id="bP" class="toleft" name="blogs">
+                    <label for="bP" class="toright">Blog posts</label>
+                    <input type="checkbox" id="lC" class="toleft" name="classes">
+                    <label for="lC" class="toright">Live classes</label>
+                    <input type="checkbox" id="doc" class="toleft" name="doc">
+                    <label for="doc" class="toright">Documentation</label>
+                    <input type="checkbox" id="vT" class="toleft" name="video">
+                    <label for="vT" class="toright">Video tutorials</label>
+                </div>
+                <div class="footer">
+                    <div class="txt-suggestion">
+                        <p><label for="txt">Any other suggestions?</label></p>
+                        <textarea name="sugg-txt" id="txt" cols="30" rows="10" placeholder="Write here"></textarea>
+                    </div>
+
+
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

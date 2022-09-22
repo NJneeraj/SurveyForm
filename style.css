@@ -1,0 +1,148 @@
+body {
+    background: linear-gradient(#554994, #C689C6, #937DC2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 62.5%;
+
+
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+
+
+}
+
+h3 {
+    color: rgb(188, 201, 196);
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+section {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+
+
+    background-color: #3a2d57;
+
+    border-radius: 10px;
+}
+
+#inputs div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 35px auto;
+    padding: 5px auto;
+    color: white;
+
+}
+
+
+
+select {
+    height: 30px;
+}
+
+#inputs label {
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+}
+
+#inputs input,
+#inputs select {
+    height: 25px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.suggestions,
+.improved {
+    color: white;
+    width: 90%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.suggestions p,
+.improved p {
+    width: 100%;
+
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+
+.toleft {
+    width: 5%;
+    display: inline;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+.toright {
+    width: 92%;
+    display: inline;
+    margin-top: 5px;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 15px auto;
+    padding: 5px auto;
+    color: white;
+    font-size: 1.5rem;
+}
+
+textarea {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    background-color: black;
+    border: none;
+    color: white;
+    height: 25px;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    transition: all 0.5 ease-in-out;
+}
+
+button:hover {
+
+    color: black;
+    background-color: rgb(255, 169, 40);
+    transform: translateY(-2px);
+    box-shadow: yellow 0px 2px 5px;
+}
+
+.name-input {
+    padding-top: 10px;
+}
